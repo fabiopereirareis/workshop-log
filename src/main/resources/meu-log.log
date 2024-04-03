@@ -1,0 +1,108 @@
+2024-04-02T19:51:05.517-03:00  INFO 5180 --- [workshop Log] [restartedMain] c.w.workshopLog.WorkshopLogApplication   : Starting WorkshopLogApplication using Java 21.0.2 with PID 5180 (/home/fabinho/dev/worshop-log/workshopLog/build/classes/java/main started by fabinho in /home/fabinho/dev/worshop-log/workshopLog)
+2024-04-02T19:51:05.533-03:00  INFO 5180 --- [workshop Log] [restartedMain] c.w.workshopLog.WorkshopLogApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-04-02T19:51:05.592-03:00  INFO 5180 --- [workshop Log] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-02T19:51:05.592-03:00  INFO 5180 --- [workshop Log] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-02T19:51:06.773-03:00  INFO 5180 --- [workshop Log] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-02T19:51:06.803-03:00  INFO 5180 --- [workshop Log] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2024-04-02T19:51:08.404-03:00  INFO 5180 --- [workshop Log] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-02T19:51:08.422-03:00  INFO 5180 --- [workshop Log] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-02T19:51:08.423-03:00  INFO 5180 --- [workshop Log] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02T19:51:08.490-03:00  INFO 5180 --- [workshop Log] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-02T19:51:08.491-03:00  INFO 5180 --- [workshop Log] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2898 ms
+2024-04-02T19:51:08.692-03:00  INFO 5180 --- [workshop Log] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-02T19:51:08.932-03:00  INFO 5180 --- [workshop Log] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:d98a3492-1668-40e3-9b2d-ad2e50c758f2 user=SA
+2024-04-02T19:51:08.934-03:00  INFO 5180 --- [workshop Log] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-02T19:51:08.946-03:00  INFO 5180 --- [workshop Log] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:d98a3492-1668-40e3-9b2d-ad2e50c758f2'
+2024-04-02T19:51:09.295-03:00  INFO 5180 --- [workshop Log] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-02T19:51:09.370-03:00  INFO 5180 --- [workshop Log] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-02T19:51:09.412-03:00  INFO 5180 --- [workshop Log] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-02T19:51:09.723-03:00  INFO 5180 --- [workshop Log] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-02T19:51:10.135-03:00  INFO 5180 --- [workshop Log] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-02T19:51:10.139-03:00  INFO 5180 --- [workshop Log] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-02T19:51:10.245-03:00  WARN 5180 --- [workshop Log] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-02T19:51:11.151-03:00  INFO 5180 --- [workshop Log] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-02T19:51:11.173-03:00  INFO 5180 --- [workshop Log] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-04-02T19:51:11.281-03:00  INFO 5180 --- [workshop Log] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-02T19:51:11.298-03:00  INFO 5180 --- [workshop Log] [restartedMain] c.w.workshopLog.WorkshopLogApplication   : Started WorkshopLogApplication in 6.287 seconds (process running for 6.844)
+2024-04-02T19:51:51.768-03:00  INFO 5180 --- [workshop Log] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02T19:51:51.768-03:00  INFO 5180 --- [workshop Log] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-02T19:51:51.769-03:00  INFO 5180 --- [workshop Log] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-02T19:51:51.830-03:00  INFO 5180 --- [workshop Log] [http-nio-8080-exec-1] c.w.w.controllers.LogController          : Log do tipo INFO
+2024-04-02T19:51:51.830-03:00  WARN 5180 --- [workshop Log] [http-nio-8080-exec-1] c.w.w.controllers.LogController          : Log do tipo WARN
+2024-04-02T19:51:51.830-03:00 ERROR 5180 --- [workshop Log] [http-nio-8080-exec-1] c.w.w.controllers.LogController          : Log do tipo ERROR
+2024-04-02T19:53:41.617-03:00  INFO 5180 --- [workshop Log] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-02T19:53:41.628-03:00  WARN 5180 --- [workshop Log] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-02T19:53:41.630-03:00  INFO 5180 --- [workshop Log] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-02T19:53:41.635-03:00  INFO 5180 --- [workshop Log] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-02T19:53:44.634-03:00  INFO 5699 --- [workshop Log] [restartedMain] c.w.workshopLog.WorkshopLogApplication   : Starting WorkshopLogApplication using Java 21.0.2 with PID 5699 (/home/fabinho/dev/worshop-log/workshopLog/build/classes/java/main started by fabinho in /home/fabinho/dev/worshop-log/workshopLog)
+2024-04-02T19:53:44.636-03:00  INFO 5699 --- [workshop Log] [restartedMain] c.w.workshopLog.WorkshopLogApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-04-02T19:53:44.692-03:00  INFO 5699 --- [workshop Log] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-02T19:53:44.692-03:00  INFO 5699 --- [workshop Log] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-02T19:53:45.735-03:00  INFO 5699 --- [workshop Log] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-02T19:53:45.759-03:00  INFO 5699 --- [workshop Log] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2024-04-02T19:53:47.142-03:00  INFO 5699 --- [workshop Log] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-02T19:53:47.160-03:00  INFO 5699 --- [workshop Log] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-02T19:53:47.160-03:00  INFO 5699 --- [workshop Log] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02T19:53:47.211-03:00  INFO 5699 --- [workshop Log] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-02T19:53:47.212-03:00  INFO 5699 --- [workshop Log] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2519 ms
+2024-04-02T19:53:47.402-03:00  INFO 5699 --- [workshop Log] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-02T19:53:47.668-03:00  INFO 5699 --- [workshop Log] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:afbfd96e-781a-4092-98bb-420f65675ae6 user=SA
+2024-04-02T19:53:47.671-03:00  INFO 5699 --- [workshop Log] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-02T19:53:47.682-03:00  INFO 5699 --- [workshop Log] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:afbfd96e-781a-4092-98bb-420f65675ae6'
+2024-04-02T19:53:48.055-03:00  INFO 5699 --- [workshop Log] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-02T19:53:48.138-03:00  INFO 5699 --- [workshop Log] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-02T19:53:48.181-03:00  INFO 5699 --- [workshop Log] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-02T19:53:48.496-03:00  INFO 5699 --- [workshop Log] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-02T19:53:48.849-03:00  INFO 5699 --- [workshop Log] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-02T19:53:48.853-03:00  INFO 5699 --- [workshop Log] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-02T19:53:48.978-03:00  WARN 5699 --- [workshop Log] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-02T19:53:50.010-03:00  INFO 5699 --- [workshop Log] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-02T19:53:50.028-03:00  INFO 5699 --- [workshop Log] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-04-02T19:53:50.122-03:00  INFO 5699 --- [workshop Log] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-02T19:53:50.139-03:00  INFO 5699 --- [workshop Log] [restartedMain] c.w.workshopLog.WorkshopLogApplication   : Started WorkshopLogApplication in 5.99 seconds (process running for 6.426)
+2024-04-02T19:53:57.215-03:00  INFO 5699 --- [workshop Log] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02T19:53:57.216-03:00  INFO 5699 --- [workshop Log] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-02T19:53:57.217-03:00  INFO 5699 --- [workshop Log] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-04-02T19:56:04.100-03:00  INFO 5699 --- [workshop Log] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-02T19:56:04.114-03:00  WARN 5699 --- [workshop Log] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-02T19:56:04.115-03:00  INFO 5699 --- [workshop Log] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-02T19:56:04.118-03:00  INFO 5699 --- [workshop Log] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-02T19:56:09.306-03:00  INFO 6204 --- [workshop Log] [restartedMain] c.w.workshopLog.WorkshopLogApplication   : Starting WorkshopLogApplication using Java 21.0.2 with PID 6204 (/home/fabinho/dev/worshop-log/workshopLog/build/classes/java/main started by fabinho in /home/fabinho/dev/worshop-log/workshopLog)
+2024-04-02T19:56:09.308-03:00  INFO 6204 --- [workshop Log] [restartedMain] c.w.workshopLog.WorkshopLogApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-04-02T19:56:09.371-03:00  INFO 6204 --- [workshop Log] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-02T19:56:09.371-03:00  INFO 6204 --- [workshop Log] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-02T19:56:10.441-03:00  INFO 6204 --- [workshop Log] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-02T19:56:10.466-03:00  INFO 6204 --- [workshop Log] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2024-04-02T19:56:11.542-03:00  INFO 6204 --- [workshop Log] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-02T19:56:11.567-03:00  INFO 6204 --- [workshop Log] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-02T19:56:11.568-03:00  INFO 6204 --- [workshop Log] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02T19:56:11.651-03:00  INFO 6204 --- [workshop Log] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-02T19:56:11.652-03:00  INFO 6204 --- [workshop Log] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2279 ms
+2024-04-02T19:56:11.944-03:00  INFO 6204 --- [workshop Log] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-02T19:56:12.223-03:00  INFO 6204 --- [workshop Log] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:535d448b-9007-4cee-9594-1c399f90921b user=SA
+2024-04-02T19:56:12.226-03:00  INFO 6204 --- [workshop Log] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-02T19:56:12.237-03:00  INFO 6204 --- [workshop Log] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:535d448b-9007-4cee-9594-1c399f90921b'
+2024-04-02T19:56:12.679-03:00  INFO 6204 --- [workshop Log] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-02T19:56:12.774-03:00  INFO 6204 --- [workshop Log] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-02T19:56:12.838-03:00  INFO 6204 --- [workshop Log] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-02T19:56:13.233-03:00  INFO 6204 --- [workshop Log] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-02T19:56:14.457-03:00  INFO 6204 --- [workshop Log] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-02T19:56:14.463-03:00  INFO 6204 --- [workshop Log] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-02T19:56:14.590-03:00  WARN 6204 --- [workshop Log] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-02T19:56:16.452-03:00  INFO 6204 --- [workshop Log] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-02T19:56:16.472-03:00  INFO 6204 --- [workshop Log] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-04-02T19:56:16.598-03:00  INFO 6204 --- [workshop Log] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-02T19:56:16.616-03:00  INFO 6204 --- [workshop Log] [restartedMain] c.w.workshopLog.WorkshopLogApplication   : Started WorkshopLogApplication in 7.794 seconds (process running for 9.099)
+2024-04-02T19:56:29.418-03:00  INFO 6204 --- [workshop Log] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02T19:56:29.418-03:00  INFO 6204 --- [workshop Log] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-02T19:56:29.419-03:00  INFO 6204 --- [workshop Log] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-02T19:56:29.478-03:00  INFO 6204 --- [workshop Log] [http-nio-8080-exec-1] c.w.w.controllers.LogController          : Log do tipo INFO
+2024-04-02T19:56:29.478-03:00  WARN 6204 --- [workshop Log] [http-nio-8080-exec-1] c.w.w.controllers.LogController          : Log do tipo WARN
+2024-04-02T19:56:29.478-03:00 ERROR 6204 --- [workshop Log] [http-nio-8080-exec-1] c.w.w.controllers.LogController          : Log do tipo ERROR
+2024-04-02T19:59:50.274-03:00  INFO 6204 --- [workshop Log] [http-nio-8080-exec-3] c.w.w.controllers.LogController          : Log do tipo INFO
+2024-04-02T19:59:50.275-03:00  WARN 6204 --- [workshop Log] [http-nio-8080-exec-3] c.w.w.controllers.LogController          : Log do tipo WARN
+2024-04-02T19:59:50.275-03:00 ERROR 6204 --- [workshop Log] [http-nio-8080-exec-3] c.w.w.controllers.LogController          : Log do tipo ERROR
+2024-04-02T20:10:48.881-03:00  INFO 6204 --- [workshop Log] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-02T20:10:48.891-03:00  WARN 6204 --- [workshop Log] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-02T20:10:48.893-03:00  INFO 6204 --- [workshop Log] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-02T20:10:48.896-03:00  INFO 6204 --- [workshop Log] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
