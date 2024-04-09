@@ -1,6 +1,11 @@
 <configuration scan="true" scanPeriod="15 seconds">
-    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <property name="LOG_DIR" value="src/main/resources" />
+    <property name="LOG_FILE" value="meu-log" />
+    <appender name="FILE_MEU_LOG" class="ch.qos.logback.core.FileAppender">
         <file>${LOG_DIR}/${LOG_FILE}.log</file>
+        <encoder>
+            <pattern>%d{dd:MM:yyyy:HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
     </appender>
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
@@ -11,12 +16,12 @@
         <file>tests.log</file>
         <append>true</append>
         <encoder>
-            <pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg%n</pattern>
         </encoder>
     </appender>
 
-    <logger name="com.workshop.workshopLog.controllers" level="DEBUG" >
-        <appender-ref ref="FILE" />
+    <logger name="com.workshop.workshopLog.controllers" level="ERROR" >
+        <appender-ref ref="FILE_MEU_LOG" />
     </logger>
     <root level="error">
         <appender-ref ref="STDOUT" />
