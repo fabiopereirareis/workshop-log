@@ -98,3 +98,11 @@
 538784 [http-nio-8080-exec-10] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
 549662 [http-nio-8080-exec-1] WARN  c.w.w.controllers.LogController - Log do tipo WARN
 549662 [http-nio-8080-exec-1] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
+18:44:00.643 [http-nio-8080-exec-1] DEBUG c.w.w.controllers.LogController - Log do tipo DEBUG
+18:44:00.659 [http-nio-8080-exec-1] INFO  c.w.w.controllers.LogController - Log do tipo INFO
+18:44:00.660 [http-nio-8080-exec-1] WARN  c.w.w.controllers.LogController - Log do tipo WARN
+18:44:00.660 [http-nio-8080-exec-1] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
+18:44:46.330 [http-nio-8080-exec-2] DEBUG c.w.w.controllers.LogController - Log do tipo DEBUG
+18:44:46.330 [http-nio-8080-exec-2] INFO  c.w.w.controllers.LogController - Log do tipo INFO
+18:44:46.330 [http-nio-8080-exec-2] WARN  c.w.w.controllers.LogController - Log do tipo WARN
+18:44:46.331 [http-nio-8080-exec-2] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
