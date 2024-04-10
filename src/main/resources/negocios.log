@@ -1,0 +1,11 @@
+10:04:2024:18:37:35.045 [http-nio-8080-exec-1] INFO  c.w.w.controllers.NegocioController - Log do tipo INFO
+10:04:2024:18:38:40.269 [http-nio-8080-exec-3] INFO  c.w.w.controllers.NegocioController - Log do tipo INFO
+10:04:2024:18:38:40.939 [http-nio-8080-exec-4] INFO  c.w.w.controllers.NegocioController - Log do tipo INFO
+10:04:2024:18:38:41.523 [http-nio-8080-exec-5] INFO  c.w.w.controllers.NegocioController - Log do tipo INFO
+10:04:2024:18:38:42.276 [http-nio-8080-exec-6] INFO  c.w.w.controllers.NegocioController - Log do tipo INFO
+10:04:2024:18:38:42.827 [http-nio-8080-exec-7] INFO  c.w.w.controllers.NegocioController - Log do tipo INFO
+10:04:2024:18:38:43.308 [http-nio-8080-exec-8] INFO  c.w.w.controllers.NegocioController - Log do tipo INFO
+10:04:2024:18:38:43.926 [http-nio-8080-exec-9] INFO  c.w.w.controllers.NegocioController - Log do tipo INFO
+10:04:2024:18:38:44.796 [http-nio-8080-exec-10] INFO  c.w.w.controllers.NegocioController - Log do tipo INFO
+10:04:2024:18:38:45.212 [http-nio-8080-exec-1] INFO  c.w.w.controllers.NegocioController - Log do tipo INFO
+10:04:2024:18:38:45.687 [http-nio-8080-exec-2] INFO  c.w.w.controllers.NegocioController - Log do tipo INFO

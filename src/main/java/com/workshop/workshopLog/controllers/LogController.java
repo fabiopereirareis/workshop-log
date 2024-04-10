@@ -20,7 +20,7 @@ public class LogController {
         return "Aqui estão listados os tipos de log :)";
     }
 
-    @RequestMapping("/log")
+    @RequestMapping("/logs")
     public String log(){
         logger.trace("Log do tipo TRACE");
         logger.debug("Log do tipo DEBUG");
