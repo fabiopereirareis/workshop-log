@@ -31,13 +31,28 @@
         </encoder>
     </appender>
 
+    <appender name="LOKI" class="com.github.loki4j.logback.Loki4jAppender">
+        <http>
+            <url>http://localhost:3100/loki/api/v1/push</url>
+        </http>
+        <format>
+            <label>
+                <pattern>app=my-app,host=${HOSTNAME}</pattern>
+            </label>
+            <message>
+                <pattern>%-5level [%.5(${HOSTNAME})] %.10thread %logger{20} | %msg %ex</pattern>
+            </message>
+        </format>
+    </appender>
+
     <logger name="com.workshop.workshopLog.controllers.LogController" level="ERROR" >
         <appender-ref ref="FILE_MEU_LOG" />
     </logger>
     <logger name="com.workshop.workshopLog.controllers.NegocioController" level="INFO" >
         <appender-ref ref="FILE_NEGOCIOS_LOG" />
     </logger>
-    <root level="error">
+    <root level="INFO">
+        <appender-ref ref="LOKI" />
         <appender-ref ref="STDOUT" />
     </root>
 </configuration>

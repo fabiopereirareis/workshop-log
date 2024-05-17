@@ -1,7 +1,0 @@
-services:
-  log-api:
-    image: fabiopereirareis/work-logs
-    ports:
-      - 8090:8080
-    volumes:
-      - ./log:/src/main/resources

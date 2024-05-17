@@ -1,0 +1,16 @@
+25:04:2024:01:15:49.077 [http-nio-8080-exec-2] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
+25:04:2024:01:19:02.969 [http-nio-8080-exec-7] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
+25:04:2024:01:19:04.300 [http-nio-8080-exec-8] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
+25:04:2024:01:19:05.424 [http-nio-8080-exec-9] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
+25:04:2024:01:19:06.599 [http-nio-8080-exec-10] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
+25:04:2024:01:19:50.936 [http-nio-8080-exec-1] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
+25:04:2024:01:19:57.735 [http-nio-8080-exec-2] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
+25:04:2024:22:44:21.538 [http-nio-8080-exec-5] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
+25:04:2024:22:44:22.198 [http-nio-8080-exec-6] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
+25:04:2024:22:44:22.665 [http-nio-8080-exec-7] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
+25:04:2024:22:44:23.064 [http-nio-8080-exec-8] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
+27:04:2024:22:18:32.623 [http-nio-8080-exec-1] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
+27:04:2024:22:20:09.458 [http-nio-8080-exec-7] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
+27:04:2024:22:20:33.639 [http-nio-8080-exec-8] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
+27:04:2024:22:20:35.793 [http-nio-8080-exec-9] ERROR c.w.w.controllers.LogController - Log do tipo ERROR
+27:04:2024:22:23:25.336 [http-nio-8080-exec-2] ERROR c.w.w.controllers.LogController - Log do tipo ERROR

@@ -1,0 +1,66 @@
+networks:
+  ws-log:
+
+services:
+
+  log-api:
+    image: fabiopereirareis/work-logs
+    ports:
+      - 8090:8080
+    volumes:
+      - ./log:/src/main/resources
+    networks:
+      - ws-log
+
+  loki:
+    image: grafana/loki:2.8.2
+    ports:
+      - 3100:3100
+    command: -config.file=/etc/loki/local-config.yaml
+    networks:
+      - ws-log
+
+  grafana:
+    environment:
+      - GF_PATHS_PROVISIONING=/etc/grafana/provisioning
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
+    entrypoint:
+      - sh
+      - -euc
+      - |
+        mkdir -p /etc/grafana/provisioning/datasources
+        cat <<EOF > /etc/grafana/provisioning/datasources/ds.yaml
+        apiVersion: 1
+        datasources:
+        - name: Loki
+          type: loki
+          access: proxy
+          orgId: 1
+          url: http://loki:3100
+          basicAuth: false
+          isDefault: true
+          version: 1
+          editable: false
+        EOF
+        /run.sh
+    image: grafana/grafana:latest
+    ports:
+      - 3000:3000
+    networks:
+      - ws-log
+
+  promtail:
+    image: grafana/promtail:2.8.2
+    networks:
+      - ws-log
+    ports:
+      - 9080:9080
+    depends_on:
+      - loki
+      - log-api
+    volumes:
+      - "./promtail/config.yaml:/etc/promtail/config.yml"
+      - "/var/log:/logs/syslogs/"
+      - "./log:/log/"
+      - "./promtail/position:/tmp"

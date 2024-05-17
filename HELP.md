@@ -34,3 +34,12 @@ These additional references should also help you:
 ### Comandos úteis 
 * Mostrar o nível de log atual: curl -X "GET" "http://localhost:8080/actuator/loggers/com.workshop.workshopLog.controllers"
 * Alterar o nível de log: curl -X "POST" "http://localhost:8080/actuator/loggers/com.workshop.workshopLog.controllers" -H "Content-Type: application/json; charset=utf-8" -d $'{ "configuredLevel": "WARN" }'
+
+### Passos
+Criar o arquivo de configuração para o logback
+Configurar os logs para salvar nos arquivos e/ou mostrar no console
+
+# Centralização dos logs
+Colocar a dependencia do loki4j que é responsável por transmitir os dados de log
+* https://loki4j.github.io/loki-logback-appender/
+
