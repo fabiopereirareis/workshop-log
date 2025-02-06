@@ -10,6 +10,11 @@ pipeline {
                 sh 'gradle clean build -x test' 
             }
         }
+        stage('Salvar artefato') {
+            steps {
+                archiveArtifacts artifacts: 'build/libs/*.jar', fingerprint: true
+            }
+        }
     }
 }
 
