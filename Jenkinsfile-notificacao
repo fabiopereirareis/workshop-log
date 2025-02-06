@@ -1,10 +1,15 @@
 pipeline {
     agent any
-    googlechatnotification url: 'https://chat.googleapis.com/v1/spaces/AAAAto3oO9Y/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=d3FU2m05sHMpu4p60wTDdRj9iNUarwnTTnFI4SH4HNU', message: 'Olha eu aqui :)'
     stages {
         stage('Hello') {
             steps {
                 echo 'Hello World'
+            }
+        }
+        
+        stage('Notificacao) {
+            steps {
+                googlechatnotification url: 'https://chat.googleapis.com/v1/spaces/AAAAto3oO9Y/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=d3FU2m05sHMpu4p60wTDdRj9iNUarwnTTnFI4SH4HNU', message: 'Olha eu aqui :)'
             }
         }
     }
