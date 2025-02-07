@@ -1,11 +1,24 @@
-pipeline {
-    agent { label 'docker-build' }  // Usando o label do nó especializado para builds Docker
 
+pipeline {
+    agent { label 'docker-build' }
+
+    tools {    
+        gradle 'Gradle-8'
+    }
     stages {
+        stage('Build') { 
+            steps {
+                sh 'gradle clean build -x test' 
+            }
+        }
+        stage('Salvar artefato') {
+            steps {
+                archiveArtifacts artifacts: 'build/libs/*.jar', fingerprint: true
+            }
+        }
         stage('Build Docker Image') {
             steps {
                 script {
-                    // Aqui você coloca os comandos para build da imagem Docker
                     sh 'docker build -t minha-imagem .'
                 }
             }
