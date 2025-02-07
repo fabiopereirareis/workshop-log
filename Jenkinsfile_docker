@@ -4,6 +4,7 @@ pipeline {
 
     tools {    
         gradle 'Gradle-8'
+        docker 'docker-jenkins'
     }
     stages {
         stage('Build') { 
