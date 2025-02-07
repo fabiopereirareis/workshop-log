@@ -1,0 +1,14 @@
+pipeline {
+    agent { label 'docker-build' }  // Usando o label do nó especializado para builds Docker
+
+    stages {
+        stage('Build Docker Image') {
+            steps {
+                script {
+                    // Aqui você coloca os comandos para build da imagem Docker
+                    sh 'docker build -t minha-imagem .'
+                }
+            }
+        }
+    }
+}
