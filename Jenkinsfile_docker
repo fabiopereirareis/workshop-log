@@ -3,7 +3,7 @@ pipeline {
     agent { label 'docker-build' }
 
     tools {    
-        gradle 'Gradle-8'
+        gradle 'Gradle-8',
         docker 'docker-jenkins'
     }
     stages {
