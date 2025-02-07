@@ -19,7 +19,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    sh 'docker build -t minha-imagem .'
+                    docker.build("workshop/jenkins"," --no-cache -f Dockerfile .")
                 }
             }
         }
