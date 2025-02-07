@@ -6,6 +6,7 @@ iniciar build via rest
 gerar token nas configurações de usário
 Via postman:
 http://localhost:8081/job/olaMundo/build?token=117272b0aa4477893c2acd288689feef12
+
 🔹 Autenticação
 
     No Postman, vá para a aba "Authorization" e escolha Basic Auth.
