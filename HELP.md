@@ -37,7 +37,7 @@ These additional references should also help you:
 
 ### Passos
 Criar o arquivo de configuração para o logback
-Configurar os logs para salvar nos arquivos e/ou mostrar no console
+Configurar os logs para salvar nos arquivos e/ou mostrar no console.
 
 # Centralização dos logs
 Colocar a dependencia do loki4j que é responsável por transmitir os dados de log
