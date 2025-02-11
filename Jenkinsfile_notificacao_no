@@ -1,0 +1,28 @@
+pipeline {
+    agent { label 'docker_agent'}
+    
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+
+        stage('Capturar Último Commit') {
+            steps {
+                script {
+                    env.GIT_LAST_COMMIT = sh(script: "git log -1 --pretty=format:'%h'", returnStdout: true).trim()
+                    env.GIT_LAST_AUTHOR = sh(script: "git log -1 --pretty=format:'%an'", returnStdout: true).trim()
+                }
+            }
+        }
+
+        stage('Notificacao') {
+            steps {
+                googlechatnotification url: 'https://chat.googleapis.com/v1/spaces/AAAAto3oO9Y/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=d3FU2m05sHMpu4p60wTDdRj9iNUarwnTTnFI4SH4HNU',
+                message: "Build ${currentBuild.currentResult}:\n Job ${env.JOB_NAME}\n build ${env.BUILD_NUMBER}\n last commit ```${env.GIT_LAST_COMMIT}```\n author *${env.GIT_LAST_AUTHOR}*\n Full details click on link: ${env.BUILD_URL}"
+            }
+        }
+    }
+}
+ message: " last commit ```${env.GIT_LAST_COMMIT}```\n author *${env.GIT_LAST_AUTHOR}*\n"
