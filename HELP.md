@@ -39,7 +39,7 @@ These additional references should also help you:
 Criar o arquivo de configuração para o logback
 Configurar os logs para salvar nos arquivos e/ou mostrar no console.
 
-Só para iniciar pipeline.
+Só para iniciar pipeline. Sim é isso mesmo !
 
 # Centralização dos logs
 Colocar a dependencia do loki4j que é responsável por transmitir os dados de log
